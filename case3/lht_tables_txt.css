@@ -6,8 +6,8 @@
    Case Problem 3
 
    Calendar Style Sheet
-   Author: 
-   Date:   
+   Author: Jazzmyne Nixon
+   Date: 11/22/2019     
 
    Filename:   lht_tables.css
 
@@ -17,7 +17,15 @@
    Mobile Styles: 0px to 640px 
    ===============================
 */
+@media only screen and (min-width: 640px) {
 
+table, tbody, tr, td, th, caption {
+   display: block;
+}
+thead h1 {
+   display: none;
+}
+}
 
 
 
